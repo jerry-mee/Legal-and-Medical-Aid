@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Professional Information</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        form { display: grid; gap: 10px; }
+        label { font-weight: bold; }
+        input, select { width: 100%; padding: 5px; }
+        button { padding: 10px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Submit Professional Information</h1>
+    <form id="submitForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="profession">Profession:</label>
+        <input type="text" id="profession" required>
+
+        <label for="contact">Contact:</label>
+        <input type="text" id="contact" required>
+
+        <label for="category">Category:</label>
+        <select id="category" required>
+            <option value="Medical">Medical</option>
+            <option value="Legal">Legal</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <label for="twitter">Twitter Handle:</label>
+        <input type="text" id="twitter">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="submit-professional.js"></script>
+</body>
+</html>

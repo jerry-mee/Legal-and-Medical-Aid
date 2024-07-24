@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "John Kintu",
+        "profession": "Doctor",
+        "contact": "0772123123",
+        "category": "Medical",
+        "twitter": "john_kintu"
+    },
+    {
+        "id": 2,
+        "name": "Jane Akello",
+        "profession": "Lawyer",
+        "contact": "0751123123",
+        "category": "Legal",
+        "twitter": "jane_akello"
+    }
+]
